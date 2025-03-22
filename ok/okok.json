@@ -1,0 +1,507 @@
+{
+   "spider": "./cnxl.jar",	
+	 "wallpaper": "http://38.148.254.151:8/tubiao/d28ced1eafc437f9533c9e2c99d08935.png",
+	 "logo": "http://ldhz.zyjpxys.com/uploads/20240517/59df732b570469fb81930b4f606f0fe7.png",
+	  "lives": [
+   
+    {
+      "name": "IPV4/6",
+      "type": 0,
+      "url":  "./lib/tvlive.txt",        
+      "playerType":1,
+      "epg": "https://live.fanmingming.com/e.xml",
+      "logo":"https://live.fanmingming.com/tv/{name}.png"
+        
+    },
+ {
+            "name": "范明明",
+            "type": 0,
+            "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+            "playerType": 2
+        },
+  
+  {
+      "name":"IPV6",
+      "type":0,
+      "url":"https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+      "playerType":1 
+      
+  }
+    
+    ],
+	
+"sites":[
+    
+ 
+ 
+    {
+      "key": "lzff",
+      "name": "全网影视",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 1,
+      "ext": "http://smtv.zyjpxys.com/api.php/app/"
+    },
+
+     
+    
+    {
+        "key":"腾讯",
+        "name":"腾讯｜影视",
+        "type":3,
+        "api": "./api/lib/drpy2.min.js",
+        "searchable":1,
+        "quickSearch":1,
+        "filterable":1,
+        "order_num":0,
+        "ext":"./api/lib/腾讯视频.js"
+         }, 
+ 
+     {
+      "key": "优酷",
+      "name": "优酷｜影视",
+      "type": 3,
+        "api": "./api/lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "./api/lib/优酷视频.js"
+    },
+ 
+
+ {
+      "key": "芒果",
+      "name": "芒果｜影视",
+      "type": 3,
+        "api": "./api/lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "./api/lib/芒果视频.js"
+    },
+    
+    
+ {
+      "key": "爱奇艺",
+      "name": "奇艺｜影视",
+      "type": 3,
+        "api": "./api/lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "./api/lib/爱奇艺.js"
+    },
+    
+    {
+      "key": "哔哩哔哩",
+      "name": "哔哩｜影视",
+      "type": 3,
+      "api":"./lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "./js/哔哩视频.js"
+    },
+    
+     
+  
+   
+
+   {
+      "key": "瓜子影视",
+      "name": "瓜子｜影视",
+      "type": 3,
+      "api": "csp_Gz360",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+      
+  {
+      "key": "低端影视",
+      "name": "外剧｜影视",
+      "type": 3,
+      "api": "csp_Ddys",
+      "playerType": "2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+          
+ 
+     
+      
+    {
+      "key": "豆瓣",
+      "name": "豆瓣推荐",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0
+    },
+  
+     {
+      "key": "星芽短剧",
+      "name": "星芽｜短剧",
+      "type": 3,
+      "api": "csp_AppXY",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+     },
+    
+ 
+  
+    
+      {
+      "key": "hipy_js_哔哩直播[官]",
+      "name": "🅱哔哩｜直播",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "order_num": 0,
+      "ext": "./js/哔哩直播.js"
+    },
+    
+     {
+      "key": "快手直播",
+      "name": "😎快手┃直播",
+      "type": 3,
+      "api": "csp_KsLive",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "timeout": 10
+    },
+    
+      {
+      "key": "虎牙直播",
+      "name": "🐯虎牙｜直播",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "ua": "okhttp/3.15",
+      "filterable": 1,
+      "ext": "./lib/huyazhibo.js"
+    },
+    
+    {
+      "key": "斗鱼js",
+      "name": "🐟斗鱼┃直播",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/斗鱼直播.js",
+      "style": {
+        "type": "rect",
+        "ratio": 1.755
+      },
+      "playerType": "2",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+ 
+
+    
+    {
+      "key": "js_六月听书",
+      "name": "📚️听书┃六月",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ua": "okhttp/3.15",
+      "playerType": 2,
+     "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 0
+      },
+      "ext": "./lib/6yue.js"
+    },
+    
+    
+    
+
+       
+          
+        {
+      "key": "bili",
+      "name": "🅱️哔哩┃合集",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "jar": "./ttkx.jar",
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "cookie": "http://127.0.0.1:9978/file/tvbox/bili_cookie.txt",
+        "json": "./lib/哔哩合集.txt"
+      },
+      "timeout": 20
+    },
+          
+   {
+      "key": "bili_学习园地",
+      "name": "🅱️哔哩┃学习园地",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "jar": "./ttkx.jar",
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "cookie": "http://127.0.0.1:9978/file/tvbox/bili_cookie.txt",
+        "json": "./lib/学习园地.json"
+      },
+      "timeout": 20
+    },
+    
+    {
+      "key": "bili_学外语",
+      "name": "🅱️哔哩┃学外语",
+      "type": 3,
+      "api": "csp_Bili",
+      "jar": "./ttkx.jar",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "cookie": "http://127.0.0.1:9978/file/tvbox/bili_cookie.txt",
+        "json": "./lib/学外语.json"
+      },
+      "timeout": 20
+    }
+    
+   ],
+ "parses": [
+     
+    
+     
+       {
+      "name": "视神器专线",
+      "url": "http://38.148.254.151:8667/?url=",
+      "type": 1,
+      "ext": {
+        "flag": [
+                 "qq",
+                 "腾讯",
+                 "qiyi",
+                 "爱奇艺",
+                 "奇艺",
+                 "youku",
+                 "优酷",
+                 "芒果",
+                 "mgtv",
+                 "NBY",
+                 "xiong-",
+                 "4kvip",
+                 "mtv",
+                 "Netflix",
+                 "bilibili",
+                 "xyzy"
+                 
+                 ],
+        "header": {
+          "User-Agent": "Dalvik/2.1.0"
+        }
+      }
+    }
+    
+    
+     ],
+
+ 
+
+  "ijk": [
+    {
+      "group": "软解码",
+      "options": [
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "overlay-format",
+          "value": "842225234"
+        },
+        {
+          "category": 4,
+          "name": "framedrop",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "soundtouch",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "http-detect-range-support",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek"
+        },
+        {
+          "category": 2,
+          "name": "skip_loop_filter",
+          "value": "48"
+        },
+        {
+          "category": 4,
+          "name": "reconnect",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "enable-accurate-seek",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-auto-rotate",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-handle-resolution-change",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "dns_cache_timeout",
+          "value": "600000000"
+        }
+      ]
+    },
+    {
+      "group": "硬解码",
+      "options": [
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "overlay-format",
+          "value": "842225234"
+        },
+        {
+          "category": 4,
+          "name": "framedrop",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "soundtouch",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "http-detect-range-support",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek"
+        },
+        {
+          "category": 2,
+          "name": "skip_loop_filter",
+          "value": "48"
+        },
+        {
+          "category": 4,
+          "name": "reconnect",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "enable-accurate-seek",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-auto-rotate",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-handle-resolution-change",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "dns_cache_timeout",
+          "value": "600000000"
+        }
+      ]
+    }
+  ],
+  "ads": [
+    "static-mozai.4gtv.tv"
+  ]
+}
